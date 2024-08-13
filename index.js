@@ -100,7 +100,7 @@ app.use(entryRoutes)
 //     }
 // })
 
-app.listen(4001, err => { 
+app.listen(process.env.PORT || 4001, err => { 
 // Default port is 3000
     if (err) {
         console.error(err)
