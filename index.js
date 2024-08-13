@@ -15,7 +15,7 @@ app.use(cors())
 
 app.use(express.json())
 
-app.get('/', (request, response) => response.send({info: 'Journal API!'}))
+app.get('/', (request, response) => response.send({info: 'Journal API - testing deployment!'}))
 
 // TODO: Move /categories route to a routes module
 // TODO: Complete categories CRUD
